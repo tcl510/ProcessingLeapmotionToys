@@ -44,6 +44,7 @@ void pause(){
   text("Place your hand in the tracking area to play", width/2, height/2, 600, 1000);
 }
 
+//todo
 void rain() {
   float acceleration = 9.81/frameRate;
   for (rect i : rainDrops) {
@@ -89,7 +90,7 @@ void draw() {
   background(255);
   leapstuff();
   //pointer.cords = new PVector(pmouseX, pmouseY);
-  
+
   rain();
   drawRain();
   displayScore();
